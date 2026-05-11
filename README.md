@@ -9,7 +9,7 @@ The dataset contains 10,000 customer records with demographic and banking-relate
 
 The bank is facing a customer churn rate of approximately 20.37%, meaning a significant portion of customers are leaving the bank.
 
-  **Key Business Challenges**
+    **Key Business Challenges**
  - Loss of valuable and long-term customers
  - Higher churn among senior customers
  - Germany-based customers showing higher churn tendency
@@ -39,16 +39,24 @@ The bank is facing a customer churn rate of approximately 20.37%, meaning a sign
  - 
 4. **Workflow**
    
- 1. **Data Preprocessing :**
- - Handled missing values
- - Removed duplicates
- - Cleaned and formatted data
-2. **Exploratory Data Analysis (EDA)**
- - Churn distribution analysis
- - Country-wise churn trends
- - Age and balance distribution
- - Active member behavior analysis
- - Statistics Analysis
+ - Data Preprocessing :
+   
+   Handled missing values
+
+   Removed duplicates
+
+   Cleaned and formatted data
+ - Exploratory Data Analysis (EDA)
+
+   Churn distribution analysis
+
+   Country-wise churn trends
+
+   Age and balance distribution
+
+   Active member behavior analysis
+
+   Statistics Analysis
 3. **Feature Engineering**
  - Label Encoding
  - One-Hot Encoding (Country feature)

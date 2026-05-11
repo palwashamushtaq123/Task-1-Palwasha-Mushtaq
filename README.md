@@ -36,39 +36,55 @@ The bank is facing a customer churn rate of approximately 20.37%, meaning a sign
  - Number of Products
  - Credit Card Status
  - Active Member Status
- - 
+   
 6. **Workflow**
    
  - Data Preprocessing :
    
    Handled missing values
+   
    Removed duplicates
+
    Cleaned and formatted data
  
  - Exploratory Data Analysis (EDA)
 
    Churn distribution analysis
+   
    Country-wise churn trends
+
    Age and balance distribution
+
    Active member behavior analysis
+
    Statistics Analysis
    
 - Feature Engineering
-   Label Encoding
+
+  Label Encoding
+
    One-Hot Encoding (Country feature)
+
    Feature scaling using StandardScaler
   
 - Handling Imbalanced Data
+
    Applied SMOTE (Synthetic Minority Oversampling Technique) to balance classes
   
 - Model Building
+
    XGBoost Classifier
+
    Gradient Boosting Classifier
   
 - Model Evaluation**
+
    Accuracy Score
+
    Classification Report
+
    Confusion Matrix
+
    Precision, Recall, F1-score
 
  7. **Model Performance**
@@ -86,7 +102,7 @@ The bank is facing a customer churn rate of approximately 20.37%, meaning a sign
  - High-balance customers also show churn tendency
  - Active members are more loyal
  - France shows lower churn compared to Germany
- - 
+  
 10. **Recommendations**
    
  1. **Customer Retention Strategy**
